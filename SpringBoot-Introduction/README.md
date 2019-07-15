@@ -12,6 +12,10 @@
 
 2.https://www.jb51.net/article/131764.htm；
 
+对Maven中build的详解：
+
+https://www.cnblogs.com/whx7762/p/7911890.html
+
 参考博客如下：
 
 1.http://www.ityouknow.com/springboot/2016/01/06/spring-boot-quick-start.html
