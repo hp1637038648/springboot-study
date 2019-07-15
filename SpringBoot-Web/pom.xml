@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- modelVersion 描述这个POM文件是遵从哪个版本的项目描述符 -->
+	<modelVersion>4.0.0</modelVersion>
+	<!-- GroupID 是项目组织唯一的标识符，实际对应JAVA的包的结构，是main目录里java的目录结构 -->
+	<groupId>com.hp</groupId>
+	<!-- ArtifactID是项目的唯一的标识符，实际对应项目的名称，就是项目根目录的名称 -->
+	<artifactId>springBoot-Introduction</artifactId>
+	<!-- 指定了项目的当前版本，SNAPSHOT意为快照，说明该项目还处于开发中，是不稳定的版本 -->
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springBoot-Web</name>
+	<description> Web project demo for Spring Boot</description>
+
+	<!-- parent为了解决项目间的依赖，通过groupId，artifactId等参数找到该项目所依赖的项目 -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.4.RELEASE</version>
+		<!-- relativePath是指依赖项目的pom文件地址,即依赖的父项目,默认值为../pom.xml -->
+		<!-- 查找顺序：relativePath元素中的地址–本地仓库–远程仓库 -->
+		<!-- 设定一个空值将始终从仓库中获取，不从本地路径获取，如<relativePath /> -->
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<!-- <properties>用于定义全局变量，在POM中通过${property_name}的形式引用变量的值 -->
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<!-- dependencyManagement元素是用来管理jar包的版本，让子项目中引用一个依赖而不用显示的列出版本号 -->
+	<!-- dependencyManagement只是一个管理jar包版本的，不会去下载这个jar包，它的作用只是声明这个jar包的版本号。 -->
+	<!-- 如果dependencies中的依赖没有声明这个jar包的版本， 那么它会去dependencyManagement中的找，找的到就使用，如果没找到就会报错。 -->
+	<!-- 如果在dependencies中声明了版本号，就是下载这个j版本的ar包并使用它， 不管dependencyManagement中有没有这个jar包的依赖，只会使用dependencies中这个版本的 -->
+	<dependencies>
+		<!-- 核心模块，包括自动配置支持、日志和 YAML -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<!-- 测试模块，包括 JUnit、Hamcrest、Mockito -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<!-- Dependency scope 是用来限制Dependency的作用范围的。 -->
+			<!-- 影响maven项目在各个生命周期时导入的package的状态 -->
+			<!-- 为test表示dependency作用在测试时，不作用在运行时。 -->
+			<scope>test</scope>
+		</dependency>
+		<!-- 添加支持web的模块 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 启动热部署，当java文件被修改时，项目会自动更新，无需再次重启 ，更新实时生效 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+	</dependencies>
+
+	<!-- 该build为全局配置（project build），针对整个项目的所有情况都有效 -->
+	<build>
+		<!-- plugins配置,用于指定使用的插件 -->
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- configuration:配置该plugin期望得到的properties -->
+				<configuration>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
