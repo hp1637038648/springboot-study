@@ -2,6 +2,6 @@
 
 参考博客：
 
-1.blog.didispace.com/springbootweb/
+1.http://blog.didispace.com/springbootweb/
 
 2.http://www.ityouknow.com/springboot/2016/02/03/spring-boot-web.html
