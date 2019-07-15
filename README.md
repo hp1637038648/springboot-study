@@ -7,3 +7,5 @@ SpringBoot学习阶段的代码知识点汇总
 2.http://www.ityouknow.com/spring-boot
 
 SpringBoot快速入门————SpringBoot-Introduction
+
+Spring Boot开发Web应用————SpringBoot-Web
