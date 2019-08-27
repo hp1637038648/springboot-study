@@ -22,12 +22,19 @@ public class Swagger2 {
 	@Bean
 	public Docket createRestApi() {
 		//DocumentationType.SWAGGER_2作为Docket构造方法的参数，指定了所用的swagger版本2.0
+		//Springfox的主要api配置机制初始化为swagger规范2.0
 		return new Docket(DocumentationType.SWAGGER_2) 
 				// apiInfo则是调用接下来的apiInfo函数，来创建Docket的信息
 				.apiInfo(apiInfo())
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.hp.controller"))  //api接口包扫描路径
-				.paths(PathSelectors.any()) //可以根据url路径设置哪些请求加入文档，忽略哪些请求
+				//可以根据url路径设置哪些请求加入文档，忽略哪些请求。这种方式可以通过筛选 API 的 url 来进行过滤
+				/*
+				 * .paths(Predicates.or(PathSelectors.ant("/user/add"),
+                 *                      PathSelectors.ant("/user/find/*")))
+                 * 接口文档将只会展示 /user/add 和 /user/find/{id} 两个接口。
+				 */
+				.paths(PathSelectors.any()) 
 				.build();
 	}
 
