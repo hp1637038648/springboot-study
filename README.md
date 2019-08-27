@@ -8,4 +8,8 @@ SpringBoot学习阶段的代码知识点汇总
 
 SpringBoot快速入门————SpringBoot-Introduction
 
-Spring Boot开发Web应用————SpringBoot-Web
+SpringBoot开发Web应用————SpringBoot-Web
+
+SpringBoot构建RESTful API与单元测试————SpringBoot-APITest
+
+SpringBoot中使用Swagger2构建RESTful API文档————SpringBoot-Swagger2
