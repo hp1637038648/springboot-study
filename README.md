@@ -16,4 +16,4 @@ SpringBoot中使用Swagger2构建RESTful API文档————SpringBoot-Swagger
 
 SpringBoot中使用JdbcTemplate访问数据库的入门项目————SpringBoot-UseJdbcTemplate
 
-SpringBoot+JdbcTemplate+Swagger2项目————SpringBoot-JdbcTemplate-middle
+SpringBoot+JdbcTemplate+Swagger2基础项目————SpringBoot-JdbcTemplate-middle
