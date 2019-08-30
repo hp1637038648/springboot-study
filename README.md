@@ -15,3 +15,5 @@ SpringBoot构建RESTful API与单元测试————SpringBoot-APITest
 SpringBoot中使用Swagger2构建RESTful API文档————SpringBoot-Swagger2
 
 SpringBoot中使用JdbcTemplate访问数据库的入门项目————SpringBoot-UseJdbcTemplate
+
+SpringBoot+JdbcTemplate+Swagger2项目————SpringBoot-JdbcTemplate-middle
