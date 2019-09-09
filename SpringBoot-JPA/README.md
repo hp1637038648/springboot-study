@@ -29,3 +29,9 @@ IDENTITY：主键由数据库自动生成（主要是自动增长型）
 AUTO：主键由程序控制。
 
 @GenericGenerator注解----自定义主键生成策略
+
+注意:
+
+Jpa 是一套规范，不是一套产品，那么像 Hibernate,TopLink,JDO 他们是一套产品；
+
+如果说这些产品实现了这个 Jpa 规范，那么我们就可以叫他们为 Jpa 的实现产品。
