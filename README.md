@@ -19,3 +19,5 @@ SpringBoot中使用JdbcTemplate访问数据库的入门项目————SpringB
 SpringBoot+JdbcTemplate+Swagger2基础项目————SpringBoot-JdbcTemplate-middle
 
 SpringBoot整合NamedParamterJdbcTemplate项目————SpringBoot-NamedParameterJdbcTemplate
+
+SpringBoot整合JPA的简单项目————SpringBoot-JPA
