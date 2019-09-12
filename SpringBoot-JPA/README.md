@@ -19,6 +19,8 @@ jpa（一）----spring-data-jpa 复杂查询，包括多表关联，分页，排
 
 2.https://www.cnblogs.com/summary-2017/p/8018574.html
 
+3.https://www.e-learn.cn/content/qita/656336
+
 
 @GeneratedValue与@GenericGenerator区别：
 
