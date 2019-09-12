@@ -12,6 +12,14 @@ JPA之@Entity、@Table、@Column、@Id详解：
 
 2.https://www.cnblogs.com/powerwu/articles/8258015.html
 
+
+jpa（一）----spring-data-jpa 复杂查询，包括多表关联，分页，排序等:
+
+1.https://blog.csdn.net/u010775025/article/details/80497986
+
+2.https://www.cnblogs.com/summary-2017/p/8018574.html
+
+
 @GeneratedValue与@GenericGenerator区别：
 
 https://blog.csdn.net/u011781521/article/details/72210980
