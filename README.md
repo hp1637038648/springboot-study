@@ -6,6 +6,14 @@ SpringBoot学习阶段的代码知识点汇总
 
 2.http://www.ityouknow.com/spring-boot
 
+SpringBoot日志管理：
+
+1.http://blog.didispace.com/springbootlog/
+
+2.https://blog.csdn.net/yh_zeng2/article/details/83046560
+
+3.https://blog.csdn.net/qq_30764991/article/details/80642502
+
 SpringBoot快速入门————SpringBoot-Introduction
 
 SpringBoot开发Web应用————SpringBoot-Web
