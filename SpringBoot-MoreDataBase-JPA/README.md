@@ -26,6 +26,10 @@ https://blog.csdn.net/u010963948/article/details/79208328
 
 2.https://www.2cto.com/database/201804/735760.html
 
+LocalContainerEntityManagerFactoryBean与LocalEntityManagerFactoryBean的区别 ：
+
+https://www.iteye.com/blog/maizi2011-1731379
+
 
 
 
