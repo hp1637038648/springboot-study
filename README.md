@@ -21,3 +21,7 @@ SpringBoot+JdbcTemplate+Swagger2基础项目————SpringBoot-JdbcTemplate-
 SpringBoot整合NamedParamterJdbcTemplate项目————SpringBoot-NamedParameterJdbcTemplate
 
 SpringBoot整合JPA的简单项目————SpringBoot-JPA
+
+SpringBoot使用JDBCtemplate实现对多数据源的配置与使用————SpringBoot-MoreDataBase
+
+SpringBoot使用JPA实现对多数据源的配置与使用————SpringBoot-MoreDataBase-JPA
