@@ -8,6 +8,8 @@ SpringBoot学习阶段的代码知识点汇总
 
 SpringBoot日志管理：
 
+log有8个级别（除去OFF和ALL，可以说分为6个级别），优先级从高到低依次为：OFF、FATAL、ERROR、WARN、INFO、DEBUG、TRACE、 ALL
+
 1.http://blog.didispace.com/springbootlog/
 
 2.https://blog.csdn.net/yh_zeng2/article/details/83046560
