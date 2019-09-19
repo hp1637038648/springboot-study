@@ -18,7 +18,7 @@ log有8个级别（除去OFF和ALL，可以说分为6个级别），优先级从
 
 SpringBoot快速入门————SpringBoot-Introduction
 
-SpringBoot开发Web应用————SpringBoot-Web
+SpringBoot开发Web应用（包含Spring Boot中Web应用的统一异常处理）————SpringBoot-Web
 
 SpringBoot构建RESTful API与单元测试————SpringBoot-APITest
 
