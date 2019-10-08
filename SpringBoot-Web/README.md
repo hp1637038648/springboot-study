@@ -27,3 +27,9 @@ Spring Boot中Web应用的统一异常处理 ：
 SpringMVC之ModelAndView的用法详解：
 
 https://www.cnblogs.com/alsf/p/9134552.html
+
+@ResponseStatus注解详解：
+
+1、https://blog.csdn.net/qq_36722039/article/details/80825117
+
+2、https://www.cnblogs.com/lvbinbin2yujie/p/10575101.html
