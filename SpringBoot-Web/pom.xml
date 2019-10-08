@@ -7,7 +7,7 @@
 	<!-- GroupID 是项目组织唯一的标识符，实际对应JAVA的包的结构，是main目录里java的目录结构 -->
 	<groupId>com.hp</groupId>
 	<!-- ArtifactID是项目的唯一的标识符，实际对应项目的名称，就是项目根目录的名称 -->
-	<artifactId>springBoot-Introduction</artifactId>
+	<artifactId>SpringBoot-Web</artifactId>
 	<!-- 指定了项目的当前版本，SNAPSHOT意为快照，说明该项目还处于开发中，是不稳定的版本 -->
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springBoot-Web</name>
@@ -32,7 +32,7 @@
 	<!-- dependencyManagement元素是用来管理jar包的版本，让子项目中引用一个依赖而不用显示的列出版本号 -->
 	<!-- dependencyManagement只是一个管理jar包版本的，不会去下载这个jar包，它的作用只是声明这个jar包的版本号。 -->
 	<!-- 如果dependencies中的依赖没有声明这个jar包的版本， 那么它会去dependencyManagement中的找，找的到就使用，如果没找到就会报错。 -->
-	<!-- 如果在dependencies中声明了版本号，就是下载这个j版本的ar包并使用它， 不管dependencyManagement中有没有这个jar包的依赖，只会使用dependencies中这个版本的 -->
+	<!-- 如果在dependencies中声明了版本号，就是下载这个j版本的jar包并使用它， 不管dependencyManagement中有没有这个jar包的依赖，只会使用dependencies中这个版本的 -->
 	<dependencies>
 		<!-- 核心模块，包括自动配置支持、日志和 YAML -->
 		<dependency>
