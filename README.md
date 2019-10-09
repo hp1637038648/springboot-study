@@ -37,3 +37,5 @@ SpringBoot使用JDBCtemplate实现对多数据源的配置与使用————S
 SpringBoot使用JPA实现对多数据源的配置与使用————SpringBoot-MoreDataBase-JPA
 
 SpringBoot属性配置文件详解 ————SpringBoot-Configure
+
+SpringBoot创建定时任务————SpringBoot-Timing
