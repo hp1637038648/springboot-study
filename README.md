@@ -35,3 +35,5 @@ SpringBoot整合JPA的简单项目————SpringBoot-JPA
 SpringBoot使用JDBCtemplate实现对多数据源的配置与使用————SpringBoot-MoreDataBase
 
 SpringBoot使用JPA实现对多数据源的配置与使用————SpringBoot-MoreDataBase-JPA
+
+SpringBoot属性配置文件详解 ————SpringBoot-Configure
