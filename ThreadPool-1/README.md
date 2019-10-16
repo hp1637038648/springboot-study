@@ -18,9 +18,19 @@ https://www.cnblogs.com/yaowen/p/6329790.html
 
 https://www.cnblogs.com/yaowen/p/6336404.html
 
+ThreadPoolExecutor构造方法参数的使用规则：
+
+https://www.cnblogs.com/cdf-opensource-007/p/8769777.html
+
 线程池ExecutorService的简单使用例子：
 
 https://blog.csdn.net/xiaojin21cen/article/details/81810534
+
+# Future模式详细讲解及实例分析
+
+1.http://www.manongjc.com/article/9331.html
+
+2.https://www.jianshu.com/p/2fff83a6e9f5
 
 
 
