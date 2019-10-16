@@ -37,7 +37,7 @@ public class Test4 {
 	 */
 	static class ThreadPoolTask implements Runnable,Serializable {
 		private static final long serialVersionUID = 1L;
-		private static int consumeTaskSleepTime = 6000;
+		private static int consumeTaskSleepTime = 10000;
 		// 保存任务所需要的数据
 		private Object threadPoolTaskData;
 		
