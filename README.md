@@ -39,3 +39,7 @@ SpringBoot使用JPA实现对多数据源的配置与使用————SpringBoot
 SpringBoot属性配置文件详解 ————SpringBoot-Configure
 
 SpringBoot创建定时任务————SpringBoot-Timing
+
+SpringBoot使用@Async实现异步调用————SpringBoot-AsyncCall
+
+线程池相关知识点项目————ThreadPool-1
