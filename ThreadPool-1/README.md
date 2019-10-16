@@ -18,6 +18,10 @@ https://www.cnblogs.com/yaowen/p/6329790.html
 
 https://www.cnblogs.com/yaowen/p/6336404.html
 
+线程池ExecutorService的简单使用例子：
+
+https://blog.csdn.net/xiaojin21cen/article/details/81810534
+
 
 
 
