@@ -1,0 +1,25 @@
+# 该项目展示了JAVA线程的一些基础知识点及注意事项
+
+java线程Thread和Runnable区别和联系：
+
+1.https://www.iteye.com/blog/zx-code-2220866
+
+2.https://www.jianshu.com/p/333ce4b3d5b8
+
+3.https://www.jb51.net/article/158337.htm
+
+4.https://blog.csdn.net/zhaojianting/article/details/97664370
+
+Runnable和Callable的区别：
+
+1.https://blog.csdn.net/const_/article/details/88105721
+
+Java线程创建形式Thread构造详解：
+
+1.https://www.cnblogs.com/noteless/p/10354753.html#10
+
+java8多线程异步调用 CompletableFuture 详解（未看：）重要：
+
+1.https://blog.csdn.net/mrxiky/article/details/78962614
+
+2.https://www.cnblogs.com/cjsblog/p/9267163.html
