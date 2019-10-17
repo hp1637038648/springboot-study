@@ -23,3 +23,11 @@ java8多线程异步调用 CompletableFuture 详解（未看：）重要：
 1.https://blog.csdn.net/mrxiky/article/details/78962614
 
 2.https://www.cnblogs.com/cjsblog/p/9267163.html
+
+使用ExecutorCompletionService提交任务后会将执行结果放到阻塞队列中，使用take方法会得到结果，
+
+哪个任务先执行完成就先获取到这个任务的执行结果：
+
+ExecutorService pool = Executors.newFixedThreadPool(taskSize);
+
+ExecutorCompletionService<String> completionService = new ExecutorCompletionService<String>(pool);
