@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.hp</groupId>
+	<artifactId>Thread-1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Thread-1</name>
+	<description>Thread project test1</description>
+
+	<!-- <properties>用于定义全局变量，在POM中通过${property_name}的形式引用变量的值 -->
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+	</dependencies>
+</project>
