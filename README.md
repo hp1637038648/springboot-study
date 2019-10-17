@@ -1,3 +1,7 @@
+# 精选学习网址
+
+1.https://www.cnblogs.com/noteless/p/9400742.html#27
+
 # springboot-study
 SpringBoot学习阶段的代码知识点汇总
 参考博客：
@@ -41,5 +45,7 @@ SpringBoot属性配置文件详解 ————SpringBoot-Configure
 SpringBoot创建定时任务————SpringBoot-Timing
 
 SpringBoot使用@Async实现异步调用————SpringBoot-AsyncCall
+
+# Java线程学习
 
 线程池相关知识点项目————ThreadPool-1
