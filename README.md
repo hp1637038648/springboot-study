@@ -48,4 +48,6 @@ SpringBoot使用@Async实现异步调用————SpringBoot-AsyncCall
 
 # Java线程学习
 
+java线程相关基础知识点及博客————Thread-1
+
 线程池相关知识点项目————ThreadPool-1
