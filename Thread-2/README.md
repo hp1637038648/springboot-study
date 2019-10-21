@@ -27,3 +27,17 @@ synchronized不可以直接修饰类，但是可以通过synchronized（类名.c
 如果一个方法内带有synchronized (类名.class)这样的代码块，这个方法就相当于静态同步方法。
 
 线程A访问该类的静态同步方法时，其他线程不可以访问静态同步方法，但是可以访问非静态同步方法和非同步方法。
+
+# JAVA线程通信相关知识点
+
+Java中wait、notify、notifyAll使用详解：
+
+1.https://segmentfault.com/a/1190000019104391
+
+2.https://www.cnblogs.com/moongeek/p/7631447.html
+
+3.https://www.cnblogs.com/noteless/p/10468834.html#0
+
+java并发之线程间通信协作简单使用：
+
+https://www.cnblogs.com/xdyixia/p/9386133.html
