@@ -18,11 +18,15 @@ Java线程创建形式Thread构造详解：
 
 1.https://www.cnblogs.com/noteless/p/10354753.html#10
 
-java8多线程异步调用 CompletableFuture 详解（未看：）重要：
+java8多线程异步调用 CompletableFuture 详解（未看）（有时间必看）：
 
 1.https://blog.csdn.net/mrxiky/article/details/78962614
 
-2.https://www.cnblogs.com/cjsblog/p/9267163.html
+2.https://www.jianshu.com/p/6bac52527ca4
+
+3.https://www.cnblogs.com/cjsblog/p/9267163.html
+
+4.https://blog.csdn.net/m0_37664223/article/details/97933674
 
 使用ExecutorCompletionService提交任务后会将执行结果放到阻塞队列中，使用take方法会得到结果，
 
