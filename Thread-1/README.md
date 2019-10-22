@@ -28,6 +28,12 @@ java8多线程异步调用 CompletableFuture 详解（未看）（有时间必�
 
 4.https://blog.csdn.net/m0_37664223/article/details/97933674
 
+java8 Lambda表达式简介:
+
+1.https://www.runoob.com/java/java8-lambda-expressions.html
+
+2.https://blog.csdn.net/qq_28410283/article/details/80961022
+
 使用ExecutorCompletionService提交任务后会将执行结果放到阻塞队列中，使用take方法会得到结果，
 
 哪个任务先执行完成就先获取到这个任务的执行结果：
