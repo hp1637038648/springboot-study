@@ -1,0 +1,10 @@
+2019-10-23 15:31:33,000 ERROR SpringBootLog4jApplicationTests:19 --- 输出error
+2019-10-23 15:31:33,001 ERROR SpringBootLog4jApplicationTests:21 --- 错误信息
+2019-10-23 15:45:18,864 ERROR SpringBootLog4jApplicationTests:19 --- 输出error
+2019-10-23 15:45:18,864 ERROR SpringBootLog4jApplicationTests:21 --- 错误信息
+2019-10-23 15:46:16,930 ERROR SpringBootLog4jApplicationTests:19 --- 输出error
+2019-10-23 15:46:16,946 ERROR SpringBootLog4jApplicationTests:21 --- 错误信息
+2019-10-23 15:46:54,367 ERROR SpringBootLog4jApplicationTests:19 --- 输出error
+2019-10-23 15:46:54,382 ERROR SpringBootLog4jApplicationTests:21 --- 错误信息
+2019-10-23 15:48:49,391 ERROR SpringBootLog4jApplicationTests:19 --- 输出error
+2019-10-23 15:48:49,391 ERROR SpringBootLog4jApplicationTests:21 --- 错误信息

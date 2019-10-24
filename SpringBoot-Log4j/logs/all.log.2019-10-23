@@ -1,0 +1,65 @@
+2019-10-23 11:11:56,205  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 11:11:56,212  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 11:11:56,212 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:26:45,667  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:26:45,667  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:26:45,667 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:29:39,413  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:29:39,422  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:29:39,422 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:38:18,651  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:38:18,651  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:38:18,651 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:41:03,540  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:41:03,555  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:41:03,555 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:43:12,633  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:43:12,633  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:43:12,633 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:43:12,633 DEBUG SpringBootLog4jApplicationTests:20 - 倒是不错就是vhdkjvhd
+2019-10-23 14:45:21,046  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:45:21,046  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:45:21,046 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:45:21,046 DEBUG SpringBootLog4jApplicationTests:20 - 倒是不错就是vhdkjvhd
+2019-10-23 14:45:21,046 ERROR SpringBootLog4jApplicationTests:21 - 错误信息
+2019-10-23 14:59:16,073  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:59:16,073  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:59:16,073 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:59:16,073 DEBUG SpringBootLog4jApplicationTests:20 - 倒是不错就是vhdkjvhd
+2019-10-23 14:59:16,073 ERROR SpringBootLog4jApplicationTests:21 - 错误信息
+2019-10-23 14:59:49,202  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 14:59:49,202  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 14:59:49,202 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 14:59:49,202 DEBUG SpringBootLog4jApplicationTests:20 - 倒是不错就是vhdkjvhd
+2019-10-23 14:59:49,202 ERROR SpringBootLog4jApplicationTests:21 - 错误信息
+2019-10-23 15:23:46 [ main:0 ] - [ INFO ] 输出info
+  2019-10-23 15:23:46 [ main:0 ] - [ INFO ] 输出debug
+  2019-10-23 15:23:46 [ main:0 ] - [ ERROR ] 输出error
+  2019-10-23 15:23:46 [ main:0 ] - [ DEBUG ] 倒是不错就是vhdkjvhd
+  2019-10-23 15:23:46 [ main:0 ] - [ ERROR ] 错误信息
+  2019-10-23 15:31:32,991  INFO SpringBootLog4jApplicationTests:17 - 输出info
+2019-10-23 15:31:33,000  INFO SpringBootLog4jApplicationTests:18 - 输出debug
+2019-10-23 15:31:33,000 ERROR SpringBootLog4jApplicationTests:19 - 输出error
+2019-10-23 15:31:33,001 DEBUG SpringBootLog4jApplicationTests:20 - 倒是不错就是vhdkjvhd
+2019-10-23 15:31:33,001 ERROR SpringBootLog4jApplicationTests:21 - 错误信息
+-X2019-10-23 15:45:18,802 INFO --- [ main] SpringBootLog4jApplicationTests:17    :输出info
+ -X2019-10-23 15:45:18,864 INFO --- [ main] SpringBootLog4jApplicationTests:18    :输出debug
+ -X2019-10-23 15:45:18,864 ERROR --- [ main] SpringBootLog4jApplicationTests:19    :输出error
+ -X2019-10-23 15:45:18,864 DEBUG --- [ main] SpringBootLog4jApplicationTests:20    :倒是不错就是vhdkjvhd
+ -X2019-10-23 15:45:18,864 ERROR --- [ main] SpringBootLog4jApplicationTests:21    :错误信息
+ 2019-10-23 15:46:16,930 INFO --- [ main] SpringBootLog4jApplicationTests:17    :输出info
+ 2019-10-23 15:46:16,930 INFO --- [ main] SpringBootLog4jApplicationTests:18    :输出debug
+ 2019-10-23 15:46:16,930 ERROR --- [ main] SpringBootLog4jApplicationTests:19    :输出error
+ 2019-10-23 15:46:16,930 DEBUG --- [ main] SpringBootLog4jApplicationTests:20    :倒是不错就是vhdkjvhd
+ 2019-10-23 15:46:16,946 ERROR --- [ main] SpringBootLog4jApplicationTests:21    :错误信息
+ 2019-10-23 15:46:54,367 INFO --- [ main] SpringBootLog4jApplicationTests:17    :输出info
+ 2019-10-23 15:46:54,367 INFO --- [ main] SpringBootLog4jApplicationTests:18    :输出debug
+ 2019-10-23 15:46:54,367 ERROR --- [ main] SpringBootLog4jApplicationTests:19    :输出error
+ 2019-10-23 15:46:54,382 DEBUG --- [ main] SpringBootLog4jApplicationTests:20    :倒是不错就是vhdkjvhd
+ 2019-10-23 15:46:54,382 ERROR --- [ main] SpringBootLog4jApplicationTests:21    :错误信息
+ 2019-10-23 15:48:49,391 INFO --- [ main] com.hp.SpringBootLog4jApplicationTests:17    :输出info
+ 2019-10-23 15:48:49,391 INFO --- [ main] com.hp.SpringBootLog4jApplicationTests:18    :输出debug
+ 2019-10-23 15:48:49,391 ERROR --- [ main] com.hp.SpringBootLog4jApplicationTests:19    :输出error
+ 2019-10-23 15:48:49,391 DEBUG --- [ main] com.hp.SpringBootLog4jApplicationTests:20    :倒是不错就是vhdkjvhd
+ 2019-10-23 15:48:49,391 ERROR --- [ main] com.hp.SpringBootLog4jApplicationTests:21    :错误信息
+ 
