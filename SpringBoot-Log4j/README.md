@@ -21,3 +21,5 @@ slf4j 是一个为 Java 程序提供日志输出的统一接口，并不是一�
 MDC日志跟踪详解：
 
 1、https://www.jianshu.com/p/8f6c74381dc3
+
+MDC提供了一个叫getCopyOfContextMap的方法，该方法就是把当前线程TreadLocal绑定的Map获取出来
