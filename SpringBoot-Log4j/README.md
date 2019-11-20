@@ -23,3 +23,9 @@ MDC日志跟踪详解：
 1、https://www.jianshu.com/p/8f6c74381dc3
 
 MDC提供了一个叫getCopyOfContextMap的方法，该方法就是把当前线程TreadLocal绑定的Map获取出来
+
+slf4j（简单日志门面）介绍：
+
+https://www.cnblogs.com/qlqwjy/p/9275415.html（全面入门）
+
+日志记录级别的设置优先级可以总结为:Threshold  > 具体包的设置  >  rootLogger的全局配置
