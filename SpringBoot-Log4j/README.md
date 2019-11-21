@@ -31,3 +31,5 @@ https://www.cnblogs.com/qlqwjy/p/9275415.html（全面入门）
 日志记录级别的设置优先级可以总结为:Threshold  > 具体包的设置  >  rootLogger的全局配置
 
 # Spring Boot中对log4j进行多环境不同日志级别的控制 
+
+http://blog.didispace.com/springbootlog4jmuilt/
