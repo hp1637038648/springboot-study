@@ -37,3 +37,9 @@ AOP理论知识理解：
 8、引入（introduction）
 
 在不修改代码的前提下，引入可以在运行期为类动态地添加一些方法或字段
+
+# 详解Spring面向切面编程（AOP)三种实现：
+
+1、https://www.cnblogs.com/jiaweit/p/9986390.html
+
+2、https://www.2cto.com/kf/201903/799053.html
