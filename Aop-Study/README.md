@@ -43,3 +43,9 @@ AOP理论知识理解：
 1、https://www.cnblogs.com/jiaweit/p/9986390.html
 
 2、https://www.2cto.com/kf/201903/799053.html
+
+# 使用注解实现AOP
+
+1、https://www.jianshu.com/p/8a22d3b9cb9a
+
+2、https://www.cnblogs.com/bj-xiaodao/p/10777914.html
