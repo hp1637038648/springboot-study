@@ -4,6 +4,12 @@ AOP理论知识理解：
 
 1、https://www.jianshu.com/p/5837230e10d5
 
+spring AOP 是通过动态代理技术实现的，Java JDK的动态代理(Proxy，底层通过反射实现)或者CGLIB的动态代理(底层通过继承实现)
+
+而动态代理的技术是通过反射来实现的
+
+动态代理技术的实现方式有两种：基于接口的JDK动态代理和基于继承的CGLib动态代理。
+
 # AOP核心概念：
 
 1、横切关注点
@@ -44,8 +50,10 @@ AOP理论知识理解：
 
 2、https://www.2cto.com/kf/201903/799053.html
 
+3、https://www.cnblogs.com/bj-xiaodao/p/10777914.html
+
 # 使用注解实现AOP
 
 1、https://www.jianshu.com/p/8a22d3b9cb9a
 
-2、https://www.cnblogs.com/bj-xiaodao/p/10777914.html
+
