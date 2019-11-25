@@ -10,6 +10,12 @@ spring AOP 是通过动态代理技术实现的，Java JDK的动态代理(Proxy�
 
 动态代理技术的实现方式有两种：基于接口的JDK动态代理和基于继承的CGLib动态代理。
 
+Spring AOP 中的代理使用逻辑如下：
+
+如果目标对象实现了接口，默认情况下会采用 JDK 的动态代理实现 AOP；如果目标对象没有实现了接口，则采用 CGLIB 库。
+
+Spring 会自动在 JDK 动态代理和 CGLIB 动态代理之间转换
+
 # AOP核心概念：
 
 1、横切关注点
@@ -55,5 +61,9 @@ spring AOP 是通过动态代理技术实现的，Java JDK的动态代理(Proxy�
 # 使用注解实现AOP
 
 1、https://www.jianshu.com/p/8a22d3b9cb9a
+
+# 使用xml配置文件实现aop
+
+1、https://blog.csdn.net/qq_41767337/article/details/89077073
 
 
