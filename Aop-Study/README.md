@@ -18,7 +18,13 @@ Spring 会自动在 JDK 动态代理和 CGLIB 动态代理之间转换
 
 Spring Boot实践——AOP实现：
 
+Spring AOP切点表达式用法总结：
 
+https://www.cnblogs.com/zhangxufeng/p/9160869.html
+
+spring AOP之proceedingjoinpoint和joinpoint区别:
+
+https://www.cnblogs.com/zhjh256/p/10694165.html
 
 # AOP核心概念：
 
