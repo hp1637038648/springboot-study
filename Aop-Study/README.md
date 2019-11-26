@@ -76,7 +76,7 @@ https://www.cnblogs.com/zhjh256/p/10694165.html
 
 1、https://www.jianshu.com/p/8a22d3b9cb9a
 
-# 使用xml配置文件实现aop
+# 使用Schema(xml)配置文件实现aop
 
 1、https://blog.csdn.net/qq_41767337/article/details/89077073
 
