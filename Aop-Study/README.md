@@ -1,5 +1,7 @@
 # 本项目旨在学习理解AOP等相关知识点
 
+http://blog.didispace.com/springbootaoplog/
+
 AOP理论知识理解：
 
 1、https://www.jianshu.com/p/5837230e10d5
@@ -18,7 +20,7 @@ Spring 会自动在 JDK 动态代理和 CGLIB 动态代理之间转换
 
 Spring Boot实践——AOP实现：
 
-https://www.cnblogs.com/zhjh256/p/10694165.html
+https://www.cnblogs.com/onlymate/p/9605165.html
 
 Spring AOP切点表达式用法总结：
 
