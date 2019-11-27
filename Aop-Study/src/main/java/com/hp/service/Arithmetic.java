@@ -1,7 +1,7 @@
 package com.hp.service;
 
 /*
-   *   业务逻辑接口
+ * 业务逻辑接口
  */
 public interface Arithmetic {
 

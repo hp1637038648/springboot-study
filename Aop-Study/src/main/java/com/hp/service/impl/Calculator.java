@@ -1,7 +1,13 @@
 package com.hp.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import com.hp.service.Arithmetic;
 
+/*
+ * 业务逻辑实现类
+ */
+@Service("calculator")
 public class Calculator implements Arithmetic{
 
 	@Override

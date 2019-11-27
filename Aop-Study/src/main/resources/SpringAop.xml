@@ -1,1 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- 配置bean -->
+	<bean id="calculator" class="com.hp.service.impl.Calculator"></bean>
+
+	<!-- 配置切面的bean -->
+	<bean id="aspect" class="com.hp.aspect.LoggingAspect"></bean>
+
+	<!-- 配置AOP -->
+	<aop:config>
+	     <!-- 配置切点表达式 -->
+	     <aop:pointcut id="pointcut" expression="execution(* com.hp.service..*.*(..))"/>
+	     <!-- 配置切面和通知 -->
+	     <aop:aspect ref="aspect" order="1">
+	        <!-- 
+	         <aop:before method="beforeMethod" pointcut-ref="pointcut"/>
+	         <aop:after method="afterMethod" pointcut-ref="pointcut"/>
+	         <aop:after-returning method="afterReturning" pointcut-ref="pointcut" returning="result"/> 
+	        -->
+	         <aop:after-throwing method="afterThrowing" pointcut-ref="pointcut" throwing="e"/>
+	         <aop:around method="around" pointcut-ref="pointcut"></aop:around>
+	     </aop:aspect>
+	</aop:config>
+
+</beans>
