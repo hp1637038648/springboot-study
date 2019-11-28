@@ -27,3 +27,4 @@ JDBC事务、 JTA（Java Transaction API）事务、 容器事务
 不可重复读(non-repeatable read) ：一个事务的操作导致另一个事务前后两次读取到不同的数据
 
 幻读(phantom read) ：一个事务的操作导致另一个事务前后两次查询的结果数据量不同。
+
