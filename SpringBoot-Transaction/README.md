@@ -6,6 +6,8 @@ java中的事务总结：
 
 2、https://www.jianshu.com/p/9b6df32c594e
 
+3、https://blog.csdn.net/m0_38044941/article/details/88206350（包含spring事务的简单使用）
+
 一、事务四特性：ACID
 
 ACID是原子性（atomicity）、一致性（consistency）、隔离性 （isolation）和持久性（durability）的缩写。
