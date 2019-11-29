@@ -41,6 +41,16 @@ JBOSS是一个基于J2EE的开放源代码的应用服务器。 JBoss代码遵�
 Jboss是 web服务器的一种，主要做ejb容器，和tomcat集成就可以jsp,servlet,ejb通吃了。
 
  EJB(enterprise javabean)，他不是javabean简单的升级，而是一些提供分布式访问的类，包括实体bean,会话bean,消息驱动bean。
+ 
+ # JTA事务
+ 
+1、https://blog.csdn.net/qq_19167629/article/details/80405803
+
+常见的JTA实现有以下几种：
+
+1.J2EE容器所提供的JTA实现(JBoss)
+
+2.独立的JTA实现:如JOTM，Atomikos.这些实现可以应用在那些不使用J2EE应用服务器的环境里用以提供分布事事务保证。如Tomcat,Jetty以及普通的java应用。
 
 
 
