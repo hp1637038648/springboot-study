@@ -36,5 +36,11 @@ JDBC事务、 JTA（Java Transaction API）事务、 容器事务
 
 1、https://blog.csdn.net/wn084/article/details/80729230
 
+JBOSS是一个基于J2EE的开放源代码的应用服务器。 JBoss代码遵循LGPL许可，可以在任何商业应用中免费使用。JBoss是一个管理EJB的容器和服务器，支持EJB 1.1、EJB 2.0和EJB3的规范。但JBoss核心服务不包括支持servlet/JSP的WEB容器，一般与Tomcat或Jetty绑定使用。
+
+Jboss是 web服务器的一种，主要做ejb容器，和tomcat集成就可以jsp,servlet,ejb通吃了。
+
+ EJB(enterprise javabean)，他不是javabean简单的升级，而是一些提供分布式访问的类，包括实体bean,会话bean,消息驱动bean。
+
 
 
