@@ -32,3 +32,9 @@ JDBC事务、 JTA（Java Transaction API）事务、 容器事务
 
 幻读(phantom read) ：一个事务的操作导致另一个事务前后两次查询的结果数据量不同。
 
+# JNDI了解
+
+1、https://blog.csdn.net/wn084/article/details/80729230
+
+
+
