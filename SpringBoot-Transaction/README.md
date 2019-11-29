@@ -60,11 +60,13 @@ Jboss是 web服务器的一种，主要做ejb容器，和tomcat集成就可以js
 
 2、https://blog.csdn.net/Peter_Changyb/article/details/82017638
 
-XA是X/Open(The open group)提出的分布式事务处理规范，分布式事务处理的工业标准
+3、https://blog.csdn.net/bluishglc/article/details/7612811
+
+XA是X/Open(The open group)提出的分布式事务处理规范，是分布式事务处理的工业标准
 
 XA DTP模型（分布式事务处理模型）包括应用程序（ AP ）、事务管理器（ TM ）、资源管理器（ RM ）、通信资源管理器（ CRM ）四部分。
 
-XA规范主要定义了（全局）事务管理器（Transaction Manager）和（局部）资源管理器（Resource Manager）之间的接口。XA接口是双向的系统接口，在事务管理器（Transaction Manager）以及一个或多个资源管理器（Resource Manager）之间形成通信桥梁
+XA规范主要定义了（全局）事务管理器（Transaction Manager）和（局部）资源管理器（Resource Manager）之间的接口。XA接口是双向的系统接口，在事务管理器（Transaction Manager）（单点）以及一个或多个资源管理器（Resource Manager）之间形成通信桥梁
 
 主要包括2PC（两阶段提交）协议 和 3PC（三阶段提交）协议。
 
