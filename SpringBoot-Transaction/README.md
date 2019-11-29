@@ -46,11 +46,19 @@ Jboss是 web服务器的一种，主要做ejb容器，和tomcat集成就可以js
  
 1、https://blog.csdn.net/qq_19167629/article/details/80405803
 
-常见的JTA实现有以下几种：
+2、https://www.cnblogs.com/hollowcabbage/p/10689751.html
+
+作为java平台上事务规范JTA（Java Transaction API）也定义了对XA事务的支持，实际上，JTA是基于XA架构上建模的。在JTA 中，事务管理器抽象为javax.transaction.TransactionManager接口，并通过底层事务服务（即Java Transaction Service）实现。像很多其他的Java规范一样，JTA仅仅定义了接口，具体的实现则是由供应商(如J2EE厂商)负责提供，目前JTA的实现主要有以下几种
 
 1.J2EE容器所提供的JTA实现(JBoss)
 
 2.独立的JTA实现:如JOTM，Atomikos.这些实现可以应用在那些不使用J2EE应用服务器的环境里用以提供分布事事务保证。如Tomcat,Jetty以及普通的java应用。
+
+# XA规范
+
+1、https://www.jianshu.com/p/d9e4982384a2
+
+2、https://blog.csdn.net/Peter_Changyb/article/details/82017638
 
 
 
