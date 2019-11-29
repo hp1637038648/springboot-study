@@ -74,5 +74,7 @@ XA规范主要定义了（全局）事务管理器（Transaction Manager）和�
 
 http://ju.outofmemory.cn/entry/323024
 
+https://blog.csdn.net/java_resolver/article/details/79918565
+
 
 
