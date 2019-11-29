@@ -70,5 +70,9 @@ XA规范主要定义了（全局）事务管理器（Transaction Manager）和�
 
 主要包括2PC（两阶段提交）协议 和 3PC（三阶段提交）协议。
 
+# SpringBoot整合mybatis+Atomikos进行分布式事务JTA（未操作）：
+
+http://ju.outofmemory.cn/entry/323024
+
 
 
