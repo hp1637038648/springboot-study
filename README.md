@@ -46,6 +46,8 @@ SpringBoot创建定时任务————SpringBoot-Timing
 
 SpringBoot使用@Async实现异步调用————SpringBoot-AsyncCall
 
+SpringBoot中AOP相关知识项目————Aop-Study
+
 # Java线程学习
 
 java线程相关基础知识点及博客————Thread-1
