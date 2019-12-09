@@ -48,6 +48,8 @@ SpringBoot使用@Async实现异步调用————SpringBoot-AsyncCall
 
 SpringBoot中AOP相关知识项目————Aop-Study
 
+SpringBoot使用Atomikos+JPA实现分布式事务项目————SpringBoot-JTATransaction（已实现）、SpringBoot-Transaction（仅作参考）
+
 # Java线程学习
 
 java线程相关基础知识点及博客————Thread-1
