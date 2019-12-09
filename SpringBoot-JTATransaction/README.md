@@ -4,6 +4,10 @@ springBoot+jpa+atomikos实现jta分布式事务的参考博客：
 
 1、https://blog.csdn.net/qq_36424455/article/details/89642350
 
+2、https://blog.csdn.net/Alexshi5/article/details/88750683
+
+3、https://blog.csdn.net/IT_hejinrong/article/details/89147894#__194
+
 java中的事务总结：
 
 1、https://www.cnblogs.com/lmyupupblogs/p/10248099.html
