@@ -23,6 +23,7 @@ import com.mysql.cj.jdbc.MysqlXADataSource;
                        entityManagerFactoryRef = "orderEntityManager",  // 实体管理工厂引用名称，对应到@Bean注解对应的方法
                        transactionManagerRef = "transactionManager")   // 事务管理工厂引用名称，对应到@Bean注解对应的方法
 public class JtaOrderDataSource {
+	
 	@Autowired
 	private JpaVendorAdapter jpaVendorAdapter;
 	
