@@ -35,6 +35,7 @@ public class MainConfig {
 	 */
 	@Bean
 	public JpaVendorAdapter jpaVendorAdapter() {
+		//jpaVendorAdapter属性用于指明所使用的是哪一个厂商的JPA实现，Spring提供了多个JPA厂商适配器，如：HibernateJpaVendorAdapter等
 		HibernateJpaVendorAdapter hibernateJpaVendorAdapter = new HibernateJpaVendorAdapter();
 		//显示sql
 		hibernateJpaVendorAdapter.setShowSql(true);

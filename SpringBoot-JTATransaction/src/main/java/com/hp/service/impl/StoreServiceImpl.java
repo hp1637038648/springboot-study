@@ -22,7 +22,7 @@ public class StoreServiceImpl implements StoreService{
 	@Transactional
 	public void store(Customer customer, Orders order) {
 		orderRepository.save(order);
-		orderRepository.save(new Orders(99,100));
+//		orderRepository.save(new Orders(99,100));
 		customerRepository.save(customer);
 	}
 
@@ -35,8 +35,8 @@ public class StoreServiceImpl implements StoreService{
 
 	@Transactional(rollbackFor = ArithmeticException.class)
 	public void storeWithNoRollbackException(Customer customer, Orders order) {
-		customerRepository.save(customer);
 		orderRepository.save(order);
+		customerRepository.save(customer);
 		throw new ArithmeticException();
 	}
 

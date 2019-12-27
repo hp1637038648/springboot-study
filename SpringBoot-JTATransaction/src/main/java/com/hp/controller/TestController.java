@@ -20,11 +20,11 @@ public class TestController {
 	public String test() {
 		Customer c = new Customer();
 		c.setName(null);  // 通过name不能为空进行回滚测试
-		c.setAge(123);
+		c.setAge(23);
 
 		Orders o = new Orders();
-		o.setCode(1);
-		o.setQuantity(7);
+		o.setCode(2);
+		o.setQuantity(8);
 
 		storeService.store(c, o);
 		return "success";
