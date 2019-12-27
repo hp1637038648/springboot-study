@@ -77,3 +77,9 @@ XA DTP模型（分布式事务处理模型）包括应用程序（ AP ）、事�
 XA规范主要定义了（全局）事务管理器（Transaction Manager）和（局部）资源管理器（Resource Manager）之间的接口。XA接口是双向的系统接口，在事务管理器（Transaction Manager）（单点）以及一个或多个资源管理器（Resource Manager）之间形成通信桥梁
 
 主要包括2PC（两阶段提交）协议 和 3PC（三阶段提交）协议。
+
+# 额外学习
+
+PropertyPlaceholderConfigurer读取属性文件使用详解：
+
+https://blog.csdn.net/wrs120/article/details/84554366#font_colorblue1_4
