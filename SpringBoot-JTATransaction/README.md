@@ -83,3 +83,7 @@ XA规范主要定义了（全局）事务管理器（Transaction Manager）和�
 PropertyPlaceholderConfigurer读取属性文件使用详解：
 
 https://blog.csdn.net/wrs120/article/details/84554366#font_colorblue1_4
+
+使用Spring @DependsOn控制bean加载顺序：
+
+https://blog.csdn.net/neweastsun/article/details/78775371
