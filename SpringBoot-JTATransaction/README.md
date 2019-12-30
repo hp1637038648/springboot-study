@@ -78,6 +78,10 @@ XA规范主要定义了（全局）事务管理器（Transaction Manager）和�
 
 主要包括2PC（两阶段提交）协议 和 3PC（三阶段提交）协议。
 
+# SpringBoot中的事务管理
+
+http://blog.didispace.com/springboottransactional/
+
 # 额外学习
 
 PropertyPlaceholderConfigurer读取属性文件使用详解：
