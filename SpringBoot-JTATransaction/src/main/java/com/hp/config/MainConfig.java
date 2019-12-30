@@ -25,6 +25,8 @@ public class MainConfig {
 
 	// PropertySourcesPlaceholderConfigurer是Spring3.1之后使用的
 	// 根本目标是将配置文件生成KV对。 真正的注入工作并不由它们本身执行。
+	// PropertyPlaceholderConfigurer读取属性文件使用详解：
+	// https://blog.csdn.net/wrs120/article/details/84554366#font_colorblue1_4
 	@Bean
 	public PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();

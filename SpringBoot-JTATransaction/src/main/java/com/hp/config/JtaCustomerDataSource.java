@@ -59,6 +59,10 @@ public class JtaCustomerDataSource {
 		return xDataSource;
 	}
 	
+	/*
+	 * LocalContainerEntityManagerFactoryBean 的getObject方法返回EntityManagerFactory，
+	 * EntityManagerFactory用来创建EntityManager来进行数据库的操作
+	 */
 	@Bean(name = "customerEntityManager")
 	@DependsOn("transactionManager")
 	public LocalContainerEntityManagerFactoryBean customerEntityManager() throws Throwable {
