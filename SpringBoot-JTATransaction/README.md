@@ -82,6 +82,8 @@ XA规范主要定义了（全局）事务管理器（Transaction Manager）和�
 
 http://blog.didispace.com/springboottransactional/
 
+https://blog.csdn.net/qq_42914528/article/details/83743726
+
 # 额外学习
 
 PropertyPlaceholderConfigurer读取属性文件使用详解：
