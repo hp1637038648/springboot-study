@@ -58,5 +58,10 @@ AbstractSecurityInterceptor中的方法说明：
 configureGlobal(AuthenticationManagerBuilder auth)方法配置用户相关信息。
 configure(HttpSecurity http)方法配置请求安全信息。
 
+# 遇到的错误
+问题：security访问登录页面时，出现 localhost将您重定向的次数过多
 
+原因：查看代码，为了跳转到我们自己定义的登录页面，写了loginPage("/login.html")，按照正常的逻辑，应该我们在访问接口的时候，都会跳到登录页面，结果却报错了。其原因是我们在访问接口时，因为有 anyRequest()，对所有的请求都要进行认证，所以会跳到login.html这个页面，跳转过去之后去请求login.html这个页面也需要身份认证，所以还是跳到了login.html这个页面，形成了死循环，所以会出现这个错误。
 
+解决方式：
+加上.antMatchers("/login.html").permitAll() ,在这个方法里添加的url是不需要进行身份认证的，如果以后有更多的页面需要加入，只需要以逗号隔开就行，如antMatchers("/login.html","/index.html").permitAll()
