@@ -50,6 +50,10 @@ SpringBoot中AOP相关知识项目————Aop-Study
 
 SpringBoot使用Atomikos+JPA实现分布式事务项目————SpringBoot-JTATransaction（已实现）、SpringBoot-Transaction（仅作参考）
 
+SpringBoot使用Security入门简单项目————SpringBoot-Security
+
+SpringBoot进一步详解Security项目————SpringBoot-SecurityExclpin
+
 # Java线程学习
 
 java线程相关基础知识点及博客————Thread-1
