@@ -55,3 +55,7 @@ MyBatis Generator 生成的example 如何使用 and or 简单混合查询
 1、https://www.cnblogs.com/kangping/p/6001519.html
 
 2、https://www.koofun.com/pro/queanswers?proquestionId=7457
+
+一个 SqlProvider的demo
+
+https://www.cnblogs.com/zyxs/p/8419378.html
