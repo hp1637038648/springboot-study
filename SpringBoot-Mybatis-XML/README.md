@@ -29,3 +29,27 @@ https://www.jb51.net/article/151232.htm
 Mybatis的复习：
 
 https://blog.csdn.net/ITITII/article/details/79969447
+
+# MyBatis逆向工程：
+
+Mybatis 逆向工程的三种方法
+
+https://blog.csdn.net/qq_24598601/article/details/83212819
+
+https://blog.csdn.net/qq_39056805/article/details/80585941
+
+mybatis逆向工程生成的Example类的使用：
+
+1、https://blog.csdn.net/Nerver_77/article/details/79707190
+
+2、https://blog.csdn.net/qq_36474549/article/details/83303703
+
+3、https://blog.csdn.net/thedarkclouds/article/details/82384606
+
+4、https://blog.csdn.net/xyjcfucdi128/article/details/86543444
+
+MyBatis Generator 生成的example 如何使用 and or 简单混合查询
+
+1、https://www.cnblogs.com/kangping/p/6001519.html
+
+2、https://www.koofun.com/pro/queanswers?proquestionId=7457
