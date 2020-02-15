@@ -54,6 +54,10 @@ SpringBoot使用Security入门简单项目————SpringBoot-Security
 
 SpringBoot进一步详解Security项目————SpringBoot-SecurityExclpin
 
+SpringBoot通过注解的方式整合MyBatis————SpringBoot-Mybatis-annotation
+
+SpringBoot通过XML方式整合Mybatis————SpringBoot-Mybatis-XML
+
 # Java线程学习
 
 java线程相关基础知识点及博客————Thread-1
