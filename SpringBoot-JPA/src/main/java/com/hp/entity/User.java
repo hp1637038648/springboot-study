@@ -1,5 +1,7 @@
 package com.hp.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tab_user") // 声明此对象映射到数据库的数据表，通过它可以为实体指定表(table)
-public class User {
+public class User implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

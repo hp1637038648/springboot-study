@@ -1,6 +1,7 @@
 package com.hp;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,11 @@ public class SpringBootJpaApplicationTests {
 	
 	@Autowired
 	private UserRepository userRepository;
+	
+	@Before
+	public void init() {
+		userRepository.save(new User("AAA",10));
+	}
 
 	@Test
 	public void test() throws Exception{
@@ -47,6 +53,15 @@ public class SpringBootJpaApplicationTests {
         
         // 测试findAll，查询所有记录，验证上面的删除是否成功
         Assert.assertEquals(9, userRepository.findAll().size());
+	}
+	
+	@Test
+	public void testCache() throws Exception{
+		User u1 = userRepository.findByName("AAA");
+		System.out.println("第一次查询：" + u1.getAge());
+
+		User u2 = userRepository.findByName("AAA");
+		System.out.println("第二次查询：" + u2.getAge());
 	}
 
 }
