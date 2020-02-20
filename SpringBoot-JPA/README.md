@@ -46,3 +46,13 @@ AUTO：主键由程序控制。
 Jpa 是一套规范，不是一套产品，那么像 Hibernate,TopLink,JDO 他们是一套产品；
 
 如果说这些产品实现了这个 Jpa 规范，那么我们就可以叫他们为 Jpa 的实现产品。
+
+# SpringBoot缓存配种
+
+参考博客：
+
+http://blog.didispace.com/springbootcache1/
+
+整合ehcache参考：
+
+https://blog.csdn.net/IT_hejinrong/article/details/89152952
