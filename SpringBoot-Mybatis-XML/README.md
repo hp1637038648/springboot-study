@@ -57,3 +57,6 @@ MyBatis Generator 生成的example 如何使用 and or 简单混合查询
 JAVA 笔记 ClassLoader.getResourceAsStream() 与 Class.getResourceAsStream()的区别：
 
 https://www.cnblogs.com/yjl49/archive/2012/08/08/2628502.html
+
+https://www.iteye.com/blog/xixinfei-1256291
+
