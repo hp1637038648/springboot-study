@@ -14,6 +14,12 @@ https://mybatis.org/mybatis-3/zh/index.html
 
 https://www.cnblogs.com/ysocean/tag/MyBatis%E8%AF%A6%E8%A7%A3%E7%B3%BB%E5%88%97/
 
+mybatis一对多，一对一，多对多
+
+https://blog.csdn.net/qq_36544760/article/details/79502206
+
+https://www.cnblogs.com/jimisun/p/9414148.html
+
 Mybatis一级缓存与二级缓存
 
 https://www.cnblogs.com/happyflyingpig/p/7739749.html
