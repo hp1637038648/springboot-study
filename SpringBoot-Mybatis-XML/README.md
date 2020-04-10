@@ -24,6 +24,8 @@ Mybatis一级缓存与二级缓存
 
 https://www.cnblogs.com/happyflyingpig/p/7739749.html
 
+https://blog.csdn.net/master_yao/article/details/70306772
+
 Mybatis的懒加载
 
 https://blog.csdn.net/qq87034246/article/details/79979982
