@@ -53,6 +53,12 @@ Jpa 是一套规范，不是一套产品，那么像 Hibernate,TopLink,JDO 他�
 
 http://blog.didispace.com/springbootcache1/
 
+https://www.cnblogs.com/kingsonfu/p/10409596.html
+
 整合ehcache参考：
 
 https://blog.csdn.net/IT_hejinrong/article/details/89152952
+
+ehcache、memcache、redis三大缓存比较：
+
+https://www.cnblogs.com/qlqwjy/p/7788912.html
