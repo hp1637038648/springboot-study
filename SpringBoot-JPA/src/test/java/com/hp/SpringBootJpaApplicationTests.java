@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringRunner;
 import com.hp.entity.User;
 import com.hp.repository.UserRepository;
@@ -16,6 +17,9 @@ public class SpringBootJpaApplicationTests {
 	
 	@Autowired
 	private UserRepository userRepository;
+	
+	@Autowired
+	private CacheManager cacheManager;
 	
 	@Before
 	public void init() {
